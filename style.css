@@ -199,3 +199,12 @@
     cursor: pointer;
     box-shadow: 0 0 10px white;
 }
+
+
+@media screen and (max-width: 600px)
+{
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
