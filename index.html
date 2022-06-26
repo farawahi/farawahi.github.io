@@ -1,105 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Personal Website</title>
-	<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<title>My Personal Website</title>
+<meta http-equiv="X-UA-Compatible" content="Ie-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<!--title icon------------>
+<link rel="shorcut icon" href="images/icon.webp"/>
+<!--link-css-file----------->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<!--using-FontAwesome-------->
+<script src="http://kit.fontawesome.com/c8e4d183c2.js"
+crossorigin="anonymous"></script>
 </head>
+
 <body>
-	<nav class="navbar">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About Me</a></li>
-			<li><a href="#">Education</a></li>
-			<li><a href="#">Experience</a></li>
-			<li><a href="#">Gallery</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
+<!--main------------------------------>
+    <section id="main">
+    <!--navigation----------------------------->
+    <nav>
+    <!--logo------------------->
+    <a href="#" class="logo">FARA</a>
+    <!--bar-icon----------->
+    <div class="toggle"></div>
+    <!--menu---------------------->
+    <ul class="menu">
+    <li><a href="#main" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact-btn">Contact</a></li>
+    </ul>
+    <!--language---------------->
+    <a href="#" class="lang">En</a>
+    </nav>
+    <!--name------------------>
+    <div class="name">
+    <!--hello--->
+    <p>Hello</p>
+    <!--name--------->
+    <h1>I'm <font color="#17d1ac">Fara</font>Wahida</h1>
+    <!--details---------->
+    <p class="details">This is my personal website</p>
+    <!--cv-btn-------->
+    <a href="#" class="cv-btn">Download CV</a>
 
-	<section id="home">
-		<div class="main">
-			<h1 class="headings">I AM <br> NURUL FARA WAHIDA</h1>
-            <p>This is my personal website to show details and my works
-            </p>
-        </div>
-        <div class="images">
-        <img src="nobackground.webp" width="350px" height="500px" class="Fara Wahida">
-        </div>
-	</section>
+    </div>
+    <!--social-------------->
+    <div class="social">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <!--arrow------------->
+    <div class="arrow"></div>
 
-    <section id= "about">
-        <h1 class="headings">ABOUT ME</h1>
-            <div id="intro">
-                <h2>NURUL FARA WAHIDA</h2>
-                <p>Name: Nurul Fara Wahida Binti Juhari</p>
-                <p>Student ID: 2021100843</p>
-                <P>Group: D2BA2424D</P>
-                <P>Course Code: IMS456</P>
-                <p>Programme Code: BA242</p>
-                <p>Faculty: Faculty of Business and Management</p>
-                <p>Submission Date: 30 June 2022</p>
-            </div>
     </section>
-
-    <section id= "education">
-    <h1 class="headings">EDUCATION</h1>
-        <div id="intro">       
-            <h2>SMK Ladang Kerilla</h2>
-            <p>Year: 2017</p>
-            <p>Level: SPM</p>
-            <p>Course: Science Stream</p>
-            <br>
-            <h2>Universiti Teknologi MARA Kampus Machang</h2>
-            <p>Year: 2018-2021</p>
-            <p>Level: Diploma</p>
-            <p>Course: Diploma in Banking Studies</p>
-            <br>
-            <h2>Universiti Teknologi MARA Kampus Kota Bharu</h2>
-            <p>Year: 2021-present</p>
-            <p>Level: Bachelor Degree</p>
-            <p>Course: Bachelor in Business Administration (Hons.) Finance</p>
-        </div> 
-        </section>
-
+<!--about-section--------------------->
+    <section id="about">
+    <!--text------------>
+    <div class="about-text">
+    <h1>About Me</h1>
+    <h2>Nurul Fara Wahida</h2>
+    <p>Name: Nurul Fara Wahida Binti Juhari</p>
+    <p>Student ID: 2021100843</p>
+    <P>Group: D2BA2424D</P>
+    <P>Course Code: IMS456</P>
+    <p>Programme Code: BA242</p>
+    <p>Faculty: Faculty of Business and Management</p>
+    <p>Submission Date: 30 June 2022</p>
+    <!--btn----------->
+    <button>More Details</button>
+    </div>
+    <!--about-model-img--------->
+    <div class="about-model">
+    <img src="images/img3.webp" width="350px" height="500px" alt="Nurul Fara Wahida"/>
+    </div>
+    </section>
+<!--education-section------------------------>
+    <section id="education">
+    <!--education-heading------------->
+    <div class="s-education">
+    <h1>Education</h1>
+    <h2>Below is my education background</h2>
+    <br>
+    <h3>SMK Ladang Kerilla</h3>
+    <p>Year: 2017</p>
+    <p>Level: SPM</p>
+    <p>Course: Science Stream</p>
+    <br>
+    <h3>Universiti Teknologi MARA Kampus Machang</h3>
+    <p>Year: 2018-2021</p>
+    <p>Level: Diploma</p>
+    <p>Course: Diploma in Banking Studies</p>
+    <br>
+    <h3>Universiti Teknologi MARA Kampus Kota Bharu</h3>
+    <p>Year: 2021-present</p>
+    <p>Level: Bachelor Degree</p>
+    <p>Course: Bachelor in Business Administration (Hons.) Finance</p>
+    </div>
+    </section>
+<!--experience-section----------------------->
     <section id="experience">
-        <h1 class="headings">EXPERIENCES</h1>
-            <div id="intro">
-                <h2>Printing Gadyss</h2>
-                <p>Position: Marketing</p>
-                <p>Year: 2018</p>
-                <p>Job Scope: Manage the scheduling of social media posts and ensure posts reach target users</p>
-                <br>
-                <h2>Azreha Bakery</h2>
-                <p>Position: Cahshier</p>
-                <p>Year: 2018</p>
-                <p>Job Scope: Manage sales and communicate with customers</p>
-            </div>
-        </section>
-
+    <!--education-heading--------------->
+    <div class="s-experience">
+    <h1>Experience</h1>
+    <h2>My work experience</h2>
+    <br>
+    <h3>Printing Ikhlas</h3>
+    <p>Position: Marketing</p>
+    <p>Year: 2018</p>
+    <p>Job Scope: Manage the scheduling of social media posts and ensure posts reach target users</p>
+    <br>
+    <h3>Ayuliza Bakery</h3>
+    <p>Position: Cahshier</p>
+    <p>Year: 2018</p>
+    <p>Job Scope: Manage sales and communicate with customers</p>
+    </div>
+    </section>
+<!--gallery-section------------------------>
     <section id="gallery">
-        <h1 class="headings">GALLERY</h1>
-        <div class="gallery">
-            <img src="POSTER.webp" alt="Poster MAD">
-            <img src="Laptop Care Tips.webp" alt="Laptor Care Tips">
-        </div>
+    <div class="s-gallery">
+    <h1>Gallery</h1>
+    <h2>My past works</h2>
+    </div>
+    <div class="gallery">
+        <img src="images/Laptop Care Tips.webp" alt="Laptop Care Tips">
+        <img src="images/POSTER.webp" alt="Poster MAD">
+    </div>
+    </section>
+<!--contact-btn---------------->
+    <section id="contact-btn">
+    <!--heading------->
+    <h1>If you have any project in your mind ?</h1>
+    <!--btn--------->
+    <a href="#form">Contact Me</a>
     </section>
 
-    <section id="contact">
-        <h1 class="headings">CONTACT</h1>
-        <div id="intro">
-            <h2>Get in Touch</h2>
-            <h3>If you have any enquiry, don't hesitate to contact me</h3>
-            <p>Phone Number: 03-7252756</p>
-            <p>Email: farawahida414@gmail.com</p>
-        </div>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Enter Your Name">
-            <input type="email" name="email" class="input" placeholder="Enter Your Email">
-            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
-            <input type="submit" value="SEND" id="send"> 
-        </form>
-    </section>
+    <form action="" class="form">
+        <input type="text" name="name" class="input" placeholder="Enter Your Name">
+        <input type="email" name="email" class="input" placeholder="Enter Your Email">
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        <input type="submit" value="SEND" id="send"> 
+    </form>
+
+    <!--Jquery------------>
+<script type="text/javascript" src="js/Jquery.js"></script>
+<!--For Change Bar Icon to "x"----->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav ul').toggleClass('active-menu')
+        })
+    })
+
+</script>
 </body>
 </html>
