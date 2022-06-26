@@ -23,7 +23,7 @@ a{
     box-sizing: border-box;
     background-color: #edf1fd;
     position: relative;
-    background-image: url("nobackground.webp");
+    background-image: url("../personal-resume/nobackground.webp");
     background-repeat: no-repeat;
     background-size: 500px;
     background-position: right;
